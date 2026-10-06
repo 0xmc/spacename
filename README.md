@@ -19,6 +19,8 @@ Click the menu bar item to do the following. Naming applies to the current
 desktop of the display you clicked.
 
 - **Name Desktop** or **Rename Desktop**: set the label for the current desktop.
+  The name field supports paste and emoji. To open the emoji picker, press
+  Control+Command+Space.
 - **Remove Name**: clear the label. Unnamed desktops show `Desktop N`.
 - **Open at Login**: start the app when you log in.
 

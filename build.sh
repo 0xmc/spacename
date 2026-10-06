@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 APP=build/SpaceName.app
 rm -rf "$APP"
 mkdir -p "$APP/Contents/MacOS"
-swiftc -O -target arm64-apple-macos13 -o "$APP/Contents/MacOS/SpaceName" Sources/main.swift
+swiftc -O -target arm64-apple-macos13 -o "$APP/Contents/MacOS/SpaceName" Sources/*.swift
 cp Info.plist "$APP/Contents/Info.plist"
 codesign --force --sign - "$APP"
 echo "Built $APP"
